@@ -50,6 +50,9 @@ async function bootstrap() {
 
   const logger = new Logger('Bootstrap');
 
+
+  console.log("haloo")
+
   logger.log(`🚀 App is running on http://localhost:${port}`);
   logger.log(`🚀 Swagger is running on http://localhost:${port}/docs`);
 }
